@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="added day 5">
-      <change afterPath="$PROJECT_DIR$/day6/part1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6/part2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="added day 6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +46,9 @@
       <module name="advent_of_code_2024" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -68,6 +67,9 @@
       <module name="advent_of_code_2024" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -140,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733381553853</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added day 6">
+      <option name="closed" value="true" />
+      <created>1733468894234</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733468894234</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -148,6 +158,7 @@
     <MESSAGE value="sanest non-regex user" />
     <MESSAGE value="added day 4" />
     <MESSAGE value="added day 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="added day 5" />
+    <MESSAGE value="added day 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="added day 6" />
   </component>
 </project>
