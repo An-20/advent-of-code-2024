@@ -21,6 +21,8 @@ def fn(row):
                 val = val * data[idx + 1]
             else:
                 val = int(str(val) + str(data[idx + 1]))
+            if val > left:
+                break
 
         if val == left:
             return left
