@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="added day 8">
-      <change afterPath="$PROJECT_DIR$/day9/part1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9/part2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/sortedcontainers/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/sortedcontainers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/sortedcontainers/sorteddict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/sortedcontainers/sortedlist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/sortedcontainers/sortedset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10/part1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10/part2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,15 +36,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/xiada/Documents/advent-of-code-2024/utils&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PythonContentEntriesConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/xiada/Documents/advent-of-code-2024/utils",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\xiada\Documents\advent-of-code-2024\utils" />
@@ -61,11 +56,11 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day9/part1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day10/part1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,11 +74,11 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day9/part2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day10/part2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,7 +156,7 @@
         <item itemvalue="Python.part1" />
         <item itemvalue="Python.part2" />
         <item itemvalue="Python.part1" />
-        <item itemvalue="Python.part_o1" />
+        <item itemvalue="Python.part2" />
       </list>
     </recent_temporary>
   </component>
