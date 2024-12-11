@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="added day 10">
-      <change afterPath="$PROJECT_DIR$/day11/part1.py" afterDir="false" />
+    <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="added day 11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -282,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733812870122</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added day 11">
+      <option name="closed" value="true" />
+      <created>1733900378288</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733900378288</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -299,6 +306,7 @@
     <MESSAGE value="added multiprocessing silk solution" />
     <MESSAGE value="added day 8" />
     <MESSAGE value="added day 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="added day 10" />
+    <MESSAGE value="added day 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="added day 11" />
   </component>
 </project>

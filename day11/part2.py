@@ -8,7 +8,7 @@ with open("input.txt") as file:
     data = [int(x) for x in file.read().strip().split()]
 
 
-@functools.lru_cache(maxsize=1_000_000)
+@functools.cache
 def blink(num, times):
     if times <= 0:
         return 1
