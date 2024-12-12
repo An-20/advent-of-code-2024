@@ -15,30 +15,35 @@ for ridx in range(ROWS):
     for cidx in range(COLS):
         if (cidx, ridx) in visited:
             continue
+
         # start a new region
         region_type = rows[ridx][cidx]
         region_plots = set()
         region_sides = 0
         to_visit = deque([(cidx, ridx)])
+
+        # BFS
         while to_visit:
             cur = to_visit.popleft()
-            curx, cury = cur
+            cur_x, cur_y = cur
             if cur in visited:
                 continue
             sides = 4
             for delta in [(0, 1), (0, -1), (1, 0), (-1, 0)]:
                 dx, dy = delta
-                nx = curx + dx
-                ny = cury + dy
+                nx = cur_x + dx
+                ny = cur_y + dy
                 if not(0 <= nx < COLS and 0 <= ny < ROWS):
                     continue
                 if (nx, ny) in region_plots:
                     sides -= 2
                 if rows[ny][nx] == region_type and (nx, ny) not in visited:
                     to_visit.append((nx, ny))
+
             region_sides += sides
             visited.add(cur)
             region_plots.add(cur)
+
         # print(region_type, region_sides, len(region_plots))
         s += region_sides * len(region_plots)
 
