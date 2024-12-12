@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="added day 11">
+      <change afterPath="$PROJECT_DIR$/day12/part1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/part2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,17 +50,17 @@
       <recent name="C:\Users\xiada\Documents\advent-of-code-2024\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.part1">
+  <component name="RunManager" selected="Python.part2">
     <configuration name="part1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advent_of_code_2024" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day12" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11/part1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day12/part1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -71,15 +73,12 @@
       <module name="advent_of_code_2024" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day12" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day10/part2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day12/part2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.part1" />
         <item itemvalue="Python.part2" />
         <item itemvalue="Python.part1" />
         <item itemvalue="Python.part2" />
         <item itemvalue="Python.part1" />
+        <item itemvalue="Python.part2" />
       </list>
     </recent_temporary>
   </component>
@@ -308,5 +307,21 @@
     <MESSAGE value="added day 10" />
     <MESSAGE value="added day 11" />
     <option name="LAST_COMMIT_MESSAGE" value="added day 11" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day12/part2.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day12/part2.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
