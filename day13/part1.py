@@ -17,6 +17,7 @@ for section in sections:
     px = int(px.split("=")[1].strip())
     py = int(py.split("=")[1].strip())
 
+    """
     min_tokens = 1_000_000_000
     for i in range(101):
         for j in range(101):
@@ -26,6 +27,17 @@ for section in sections:
                     min_tokens = tokens
     if min_tokens != 1_000_000_000:
         s += min_tokens
+    """
+
+    det = ax * by - bx * ay
+    if det == 0:
+        # because of nature of input, there is always a solution
+        raise Exception("Unimplemented")
+
+    A = (px * by - bx * py) / det
+    B = (-(ay * px) + ax * py) / det
+    if A.is_integer() and B.is_integer():
+        s += int(A * 3 + B)
 
 
 print(s)
