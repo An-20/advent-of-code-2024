@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="cleaned up day 13 part 1">
-      <change afterPath="$PROJECT_DIR$/day14/part1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/part2.py" afterDir="false" />
+    <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="added day 14">
+      <change afterPath="$PROJECT_DIR$/day15/part1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day15/part2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +56,11 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day14" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day15" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day14/part1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day15/part1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,32 +74,11 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day14" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day15" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day14/part2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="part2_o1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="advent_of_code_2024" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\xiada\Documents\advent-of-code-2024\day6\part2_o1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day15/part2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,6 +100,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\xiada\Documents\advent-of-code-2024\day6\part2_o2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="part2rewritten" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="advent_of_code_2024" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day15" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day15/part2rewritten.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,10 +150,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.part2" />
-        <item itemvalue="Python.part1" />
+        <item itemvalue="Python.part2rewritten" />
         <item itemvalue="Python.part1" />
         <item itemvalue="Python.part2" />
-        <item itemvalue="Python.part2" />
+        <item itemvalue="Python.part1" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734073988928</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added day 14">
+      <option name="closed" value="true" />
+      <created>1734169933150</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1734169933150</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -342,6 +347,7 @@
     <MESSAGE value="cleaned up day 12 code" />
     <MESSAGE value="added day 13" />
     <MESSAGE value="cleaned up day 13 part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaned up day 13 part 1" />
+    <MESSAGE value="added day 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="added day 14" />
   </component>
 </project>
