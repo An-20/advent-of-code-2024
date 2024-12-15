@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="added day 14">
-      <change afterPath="$PROJECT_DIR$/day15/part1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day15/part2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="added day 15">
+      <change beforePath="$PROJECT_DIR$/day15/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day15/part2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -325,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734169933150</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added day 15">
+      <option name="closed" value="true" />
+      <created>1734265382376</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1734265382376</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -348,6 +354,7 @@
     <MESSAGE value="added day 13" />
     <MESSAGE value="cleaned up day 13 part 1" />
     <MESSAGE value="added day 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="added day 14" />
+    <MESSAGE value="added day 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="added day 15" />
   </component>
 </project>

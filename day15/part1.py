@@ -1,3 +1,6 @@
+DEBUG = False
+
+
 with open("input.txt") as file:
     sections = [x.strip() for x in file.read().split("\n\n") if x.strip()]
 
@@ -9,7 +12,7 @@ robot_x = [x.index("@") for x in warehouse if "@" in x][0]
 robot_y = [x for x in range(len(warehouse)) if "@" in warehouse[x]][0]
 
 
-for movement in movements:
+for idx, movement in enumerate(movements):
     if movement not in "^>v<":
         continue
     dx, dy = {"^": (0, -1), ">": (1, 0), "v": (0, 1), "<": (-1, 0)}[movement]
@@ -27,10 +30,9 @@ for movement in movements:
             break
 
     if not can_move:
-        # print("\n" * 5)
-        # print(f"Move: {movement}")
-        # for row in warehouse:
-        #     print("".join(row).replace(".", "-"))
+        if DEBUG:
+            print("\n" * 5, f"\nIdx: {idx}, Move: {movement}",
+                  "\n" + "\n".join("".join(x).replace(".", "-") for x in warehouse))
         continue
 
     # progressively move everything
@@ -51,10 +53,9 @@ for movement in movements:
     robot_x += dx
     robot_y += dy
 
-    # print("\n" * 5)
-    # print(f"Move: {movement}")
-    # for row in warehouse:
-    #     print("".join(row).replace(".", "-"))
+    if DEBUG:
+        print("\n" * 5, f"\nIdx: {idx}, Move: {movement}",
+              "\n" + "\n".join("".join(x).replace(".", "-") for x in warehouse))
 
 
 s = 0

@@ -1,3 +1,6 @@
+DEBUG = False
+
+
 with open("input.txt") as file:
     sections = [x.strip() for x in file.read().split("\n\n") if x.strip()]
 
@@ -18,45 +21,33 @@ for idx, movement in enumerate(movements):
 
     if dy == 0:
         check_x = robot_x
-        check_y = robot_y
         can_move = False
         while True:
             check_x += dx
-            check_y += dy
-            if warehouse[check_y][check_x] == "#":
+            if warehouse[robot_y][check_x] == "#":
                 break
-            elif warehouse[check_y][check_x] == ".":
+            elif warehouse[robot_y][check_x] == ".":
                 can_move = True
                 break
 
         if not can_move:
-            # print("\n" * 5)
-            # print(idx, f"Move: {movement}")
-            # for row in warehouse:
-            #     print("".join(row).replace(".", "-"))
+            if DEBUG:
+                print("\n" * 5, f"\nIdx: {idx}, Move: {movement}",
+                      "\n" + "\n".join("".join(x).replace(".", "-") for x in warehouse))
             continue
 
         # progressively move everything
         cur_x = robot_x
-        cur_y = robot_y
         last = "."
         while True:
-            new_last = warehouse[cur_y][cur_x]
-            warehouse[cur_y][cur_x] = last
-
+            new_last = warehouse[robot_y][cur_x]
+            warehouse[robot_y][cur_x] = last
             if new_last == ".":
                 break
             last = new_last
-
             cur_x += dx
-            cur_y += dy
 
         robot_x += dx
-        robot_y += dy
-        # print("\n" * 5)
-        # print(idx, f"Move: {movement}")
-        # for row in warehouse:
-        #     print("".join(row).replace(".", "-"))
 
     else:
         # uh oh spaghetti code for checking moving multiple boxes
@@ -71,7 +62,6 @@ for idx, movement in enumerate(movements):
         while not last_row_explored:
             check_y += dy
             last_row_explored = True
-
             new_check_xs = check_xs[:]
 
             for check_x in check_xs:
@@ -102,38 +92,29 @@ for idx, movement in enumerate(movements):
                 break
 
         if not can_move:
-            # print("\n" * 5)
-            # print(idx, f"Move: {movement}")
-            # for row in warehouse:
-            #     print("".join(row).replace(".", "-"))
+            if DEBUG:
+                print("\n" * 5, f"\nIdx: {idx}, Move: {movement}",
+                      "\n" + "\n".join("".join(x).replace(".", "-") for x in warehouse))
             continue
 
         box_lefts = list(set(box_lefts))
         box_rights = list(set(box_rights))
 
-        for box_left in box_lefts:
-            x, y = box_left
+        for x, y in box_lefts + box_rights:
             warehouse[y][x] = "."
-        for box_right in box_rights:
-            x, y = box_right
-            warehouse[y][x] = "."
-        for box_left in box_lefts:
-            x, y = box_left
-            y += dy
-            warehouse[y][x] = "["
-        for box_right in box_rights:
-            x, y = box_right
-            y += dy
-            warehouse[y][x] = "]"
+
+        for x, y in box_lefts:
+            warehouse[y + dy][x] = "["
+        for x, y in box_rights:
+            warehouse[y + dy][x] = "]"
 
         warehouse[robot_y][robot_x] = "."
         warehouse[robot_y + dy][robot_x] = "@"
-        robot_x += dx
         robot_y += dy
-        # print("\n" * 5)
-        # print(idx, f"Move: {movement}")
-        # for row in warehouse:
-        #     print("".join(row).replace(".", "-"))
+
+    if DEBUG:
+        print("\n" * 5, f"\nIdx: {idx}, Move: {movement}",
+              "\n" + "\n".join("".join(x).replace(".", "-") for x in warehouse))
 
 
 s = 0
