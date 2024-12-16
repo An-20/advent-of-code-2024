@@ -4,29 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="cleaned up part 2 slightly">
+    <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="renamed dirs to correct lexicographical order">
+      <change afterPath="$PROJECT_DIR$/day16/part1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1/part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day01/part1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day01/part2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day2/part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02/part1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day2/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02/part2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day3/part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day03/part1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day3/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day03/part2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day4/part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day04/part1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day4/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day04/part2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5/part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day05/part1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day05/part2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day6/part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day06/part1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day6/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day06/part2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day6/part2_o1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day06/part2_o1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day6/part2_o2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day06/part2_o2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day7/part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day07/part1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day7/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day07/part2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day7/part_o1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day07/part_o1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day8/part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day08/part1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day8/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day08/part2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day9/part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day09/part1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day9/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day09/part2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,17 +49,17 @@
       <recent name="C:\Users\xiada\Documents\advent-of-code-2024\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.part2">
+  <component name="RunManager" selected="Python.part1">
     <configuration name="part1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advent_of_code_2024" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day15" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day16" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day15/part1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day16/part1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,6 +72,9 @@
       <module name="advent_of_code_2024" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day15" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -131,6 +114,9 @@
       <module name="advent_of_code_2024" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day15" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -168,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.part1" />
         <item itemvalue="Python.part2" />
         <item itemvalue="Python.part2rewritten" />
         <item itemvalue="Python.part1" />
         <item itemvalue="Python.part2" />
-        <item itemvalue="Python.part1" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +346,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734265903090</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="renamed dirs to correct lexicographical order">
+      <option name="closed" value="true" />
+      <created>1734267179364</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1734267179364</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -385,6 +379,18 @@
     <MESSAGE value="added day 14" />
     <MESSAGE value="added day 15" />
     <MESSAGE value="cleaned up part 2 slightly" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaned up part 2 slightly" />
+    <MESSAGE value="renamed dirs to correct lexicographical order" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed dirs to correct lexicographical order" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day16/part1.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
