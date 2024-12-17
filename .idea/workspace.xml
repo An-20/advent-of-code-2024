@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="renamed dirs to correct lexicographical order">
-      <change afterPath="$PROJECT_DIR$/day16/part1.py" afterDir="false" />
+    <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="use heapq instead of O(n^2) searches">
+      <change afterPath="$PROJECT_DIR$/day17/part1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day17/part2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,11 +56,11 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day16" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day17" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day16/part1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day17/part1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,11 +77,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day15" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day16" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day15/part2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day16/part2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,9 +157,9 @@
       <list>
         <item itemvalue="Python.part1" />
         <item itemvalue="Python.part2" />
-        <item itemvalue="Python.part2rewritten" />
         <item itemvalue="Python.part1" />
         <item itemvalue="Python.part2" />
+        <item itemvalue="Python.part2rewritten" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +355,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734267179364</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="added day 16">
+      <option name="closed" value="true" />
+      <created>1734390333619</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1734390333619</updated>
+    </task>
+    <task id="LOCAL-00024" summary="use heapq instead of O(n^2) searches">
+      <option name="closed" value="true" />
+      <created>1734390960528</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1734390960528</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -380,17 +397,8 @@
     <MESSAGE value="added day 15" />
     <MESSAGE value="cleaned up part 2 slightly" />
     <MESSAGE value="renamed dirs to correct lexicographical order" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed dirs to correct lexicographical order" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/day16/part1.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="added day 16" />
+    <MESSAGE value="use heapq instead of O(n^2) searches" />
+    <option name="LAST_COMMIT_MESSAGE" value="use heapq instead of O(n^2) searches" />
   </component>
 </project>
