@@ -1,4 +1,7 @@
 """
+NOTE: This solution does not generally work for any input.
+It likely only works for a specific 'disassembled' input below.
+
 Register A: 61156655
 Register B: 0
 Register C: 0
@@ -55,9 +58,13 @@ def solve(remaining: list[int], a_val: int) -> list[int]:
     return sols
 
 
-# code to check that it all works
-program = [2, 4, 1, 5, 7, 5, 4, 3, 1, 6, 0, 3, 5, 5, 3, 0]
+with open("input.txt") as file:
+    sections = [x.strip() for x in file.read().split("\n\n") if x.strip()]
 
+registers = sections[0].split("\n")
+program = [int(x.strip()) for x in sections[1].split(":")[1].strip().split(",")]
+
+# code to check that it all works
 solution = min(solve(program, 0))
 rega = solution
 regb = 0
