@@ -8,17 +8,16 @@ with open("input.txt") as file:
 ROWS = 71
 COLS = 71
 DIRS = [(1, 0), (0, 1), (-1, 0), (0, -1)]
+INF = float("inf")
 
 space = [[True for _ in range(COLS)] for _ in range(ROWS)]
 
-start_x = 0
-start_y = 0
-end_x = 70
-end_y = 70
+start_x, start_y = 0, 0
+end_x, end_y = 70, 70
 
 cor_x, cor_y = None, None
 for cidx, corruption in enumerate(corruptions):
-    print(f"{cidx} / {len(corruptions)}")
+    # print(f"{cidx} / {len(corruptions)}")
 
     cor_x, cor_y = corruption.split(",")
     cor_x = int(cor_x)
@@ -30,7 +29,7 @@ for cidx, corruption in enumerate(corruptions):
 
     for x in range(COLS):
         for y in range(ROWS):
-            distances[(x, y)] = 1_000_000_000
+            distances[(x, y)] = INF
     distances[(start_x, start_y)] = 0
 
     while queue:
@@ -48,7 +47,7 @@ for cidx, corruption in enumerate(corruptions):
                 distances[(nx, ny)] = dist + 1
                 heapq.heappush(queue, (dist + 1, nx, ny))
 
-    if distances[(end_x, end_y)] == 1_000_000_000:
+    if distances[(end_x, end_y)] == INF:
         break
 
 
