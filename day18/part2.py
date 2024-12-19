@@ -18,7 +18,6 @@ end_x, end_y = 70, 70
 cor_x, cor_y = None, None
 for cidx, corruption in enumerate(corruptions):
     # print(f"{cidx} / {len(corruptions)}")
-
     cor_x, cor_y = corruption.split(",")
     cor_x = int(cor_x)
     cor_y = int(cor_y)

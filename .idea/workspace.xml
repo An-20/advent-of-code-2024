@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="update day 17 to read from input file">
-      <change afterPath="$PROJECT_DIR$/day18/part1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day18/part2.py" afterDir="false" />
+    <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="cleaned up day 18">
+      <change afterPath="$PROJECT_DIR$/day19/part1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day19/part2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day18/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day18/part2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +57,11 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day18" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day19" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day18/part1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day19/part1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,6 +74,9 @@
       <module name="advent_of_code_2024" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day18" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -153,10 +157,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.part1" />
+        <item itemvalue="Python.part1" />
         <item itemvalue="Python.part2" />
         <item itemvalue="Python.part2" />
         <item itemvalue="Python.part1" />
-        <item itemvalue="Python.part2" />
       </list>
     </recent_temporary>
   </component>
@@ -384,12 +388,26 @@
       <option name="project" value="LOCAL" />
       <updated>1734518042123</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="added day 18">
+      <option name="closed" value="true" />
+      <created>1734519089455</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1734519089455</updated>
+    </task>
+    <task id="LOCAL-00028" summary="cleaned up day 18">
+      <option name="closed" value="true" />
+      <created>1734519228935</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1734519228935</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sanest non-regex user" />
-    <MESSAGE value="added day 4" />
     <MESSAGE value="added day 5" />
     <MESSAGE value="added day 6" />
     <MESSAGE value="added silk" />
@@ -413,6 +431,8 @@
     <MESSAGE value="use heapq instead of O(n^2) searches" />
     <MESSAGE value="added day 17" />
     <MESSAGE value="update day 17 to read from input file" />
-    <option name="LAST_COMMIT_MESSAGE" value="update day 17 to read from input file" />
+    <MESSAGE value="added day 18" />
+    <MESSAGE value="cleaned up day 18" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned up day 18" />
   </component>
 </project>
