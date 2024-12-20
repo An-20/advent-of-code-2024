@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="added day 19">
-      <change afterPath="$PROJECT_DIR$/day20/part1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day20/part2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="added day 20">
+      <change afterPath="$PROJECT_DIR$/day20/part2_o1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day20/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day20/part2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
       <recent name="C:\Users\xiada\Documents\advent-of-code-2024\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.part2">
+  <component name="RunManager" selected="Python.part2_o1">
     <configuration name="part1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advent_of_code_2024" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,19 +86,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="part2_o2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="part2_o1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advent_of_code_2024" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day20" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\xiada\Documents\advent-of-code-2024\day6\part2_o2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day20/part2_o1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.part2_o1" />
         <item itemvalue="Python.part2" />
         <item itemvalue="Python.part1" />
         <item itemvalue="Python.part1" />
         <item itemvalue="Python.part1" />
-        <item itemvalue="Python.part2" />
       </list>
     </recent_temporary>
   </component>
@@ -408,11 +404,18 @@
       <option name="project" value="LOCAL" />
       <updated>1734608689275</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="added day 20">
+      <option name="closed" value="true" />
+      <created>1734691729624</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1734691729624</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added day 6" />
     <MESSAGE value="added silk" />
     <MESSAGE value="added silk solution to day 6" />
     <MESSAGE value="improved silk solution (reduced copies)" />
@@ -437,6 +440,7 @@
     <MESSAGE value="added day 18" />
     <MESSAGE value="cleaned up day 18" />
     <MESSAGE value="added day 19" />
-    <option name="LAST_COMMIT_MESSAGE" value="added day 19" />
+    <MESSAGE value="added day 20" />
+    <option name="LAST_COMMIT_MESSAGE" value="added day 20" />
   </component>
 </project>

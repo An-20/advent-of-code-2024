@@ -1,4 +1,7 @@
+import time
 import heapq
+
+from utils.silk import execute_parallel
 
 
 with open("input.txt") as file:
@@ -51,19 +54,32 @@ for dx in range(-20, 21):
         diffs.append((dx, dy, cheat_len))
 
 
-s = 0
-# next, try every possible cheat
-for x in range(COLS):
-    for y in range(ROWS):
-        for dx, dy, cheat_len in diffs:
-            nx = x + dx
-            ny = y + dy
-            if not 0 <= nx < COLS or not 0 <= ny < ROWS:
+def fn(_distances: dict[tuple[int, int], int], _diffs: list[(int, int, int)], x: int, cols: int, rows: int):
+    INF = float("inf")
+    s = 0
+    for y in range(rows):
+        for _dx, _dy, _cheat_len in _diffs:
+            _nx = x + _dx
+            _ny = y + _dy
+            if not 0 <= _nx < cols or not 0 <= _ny < rows:
                 continue
-            if distances[(x, y)] == INF or distances[(nx, ny)] == INF:
+            if _distances[(x, y)] == INF or _distances[(_nx, _ny)] == INF:
                 continue
-            cheat_saving = distances[(x, y)] - distances[(nx, ny)] - cheat_len
+            cheat_saving = _distances[(x, y)] - _distances[(_nx, _ny)] - _cheat_len
             if cheat_saving >= 100:
                 s += 1
+    return s
 
-print(s)
+
+def main():
+    out = execute_parallel(
+        [fn] * COLS, [[distances, diffs, x, COLS, ROWS] for x in range(COLS)], [{}] * COLS
+    )
+    print(sum(x.obj for x in out))
+
+
+if __name__ == "__main__":
+    start_time = time.perf_counter()
+    main()
+    end_time = time.perf_counter()
+    print(end_time - start_time)
