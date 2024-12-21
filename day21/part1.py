@@ -4,6 +4,7 @@ with open("input.txt") as file:
 
 NUMERIC_KEYPAD = [["7", "8", "9"], ["4", "5", "6"], ["1", "2", "3"], ["", "0", "A"]]
 DIRECTIONAL_KEYPAD = [["", "^", "A"], ["<", "v", ">"]]
+DIRS = {"^": (0, -1), ">": (1, 0), "v": (0, 1), "<": (-1, 0)}
 
 
 def get_xy(keypad: list[list[str]], char: str):
@@ -20,11 +21,10 @@ def get_moves(keypad: list[list[str]], initial: tuple[int, int], target: str) ->
         dx = tx - x
         dy = ty - y
         necessary_moves = []
-        necessary_moves += (">" * abs(dx)) if dx > 0 else ("<" * abs(dx))
-        necessary_moves += ("v" * abs(dy)) if dy > 0 else ("^" * abs(dy))
+        necessary_moves += (">" if dx > 0 else "<") * abs(dx)
+        necessary_moves += ("v" if dy > 0 else "^") * abs(dy)
 
         new_possible = []
-        #for m in set(itertools.permutations(necessary_moves)):
         if not dx or not dy:
             to_check = (necessary_moves,)
         else:
@@ -34,7 +34,7 @@ def get_moves(keypad: list[list[str]], initial: tuple[int, int], target: str) ->
             works = True
             cx, cy = x, y
             for move in m:
-                dx, dy = {"^": (0, -1), ">": (1, 0), "v": (0, 1), "<": (-1, 0)}[move]
+                dx, dy = DIRS[move]
                 cx += dx
                 cy += dy
                 if not keypad[cy][cx]:
@@ -72,5 +72,4 @@ for code in data:
     for bv in sorted(b):
         c.extend(get_directional_moves(bv))
     s += min(len(x) for x in c) * int(code[:-1])
-    print(min(len(x) for x in c), int(code[:-1]))
 print(s)

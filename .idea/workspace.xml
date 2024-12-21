@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="added day 20">
-      <change afterPath="$PROJECT_DIR$/day20/part2_o1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day20/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day20/part2.py" afterDir="false" />
+    <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="added day 21 part 2 (it finally works, this took like two hours)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day21/part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day21/part1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day21/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day21/part2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,17 +50,17 @@
       <recent name="C:\Users\xiada\Documents\advent-of-code-2024\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.part2_o1">
+  <component name="RunManager" selected="Python.part2">
     <configuration name="part1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="advent_of_code_2024" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day20" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day21" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day20/part1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day21/part1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,11 +74,11 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day20" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day21" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day20/part2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day21/part2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,6 +91,9 @@
       <module name="advent_of_code_2024" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day20" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -148,10 +152,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.part2_o1" />
         <item itemvalue="Python.part2" />
         <item itemvalue="Python.part1" />
-        <item itemvalue="Python.part1" />
+        <item itemvalue="Python.part2_o1" />
+        <item itemvalue="Python.part2" />
         <item itemvalue="Python.part1" />
       </list>
     </recent_temporary>
@@ -412,13 +416,34 @@
       <option name="project" value="LOCAL" />
       <updated>1734691729624</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="clean up day 20; added multiprocessing">
+      <option name="closed" value="true" />
+      <created>1734692229469</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1734692229469</updated>
+    </task>
+    <task id="LOCAL-00032" summary="added day 21 part 1">
+      <option name="closed" value="true" />
+      <created>1734823736729</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1734823736729</updated>
+    </task>
+    <task id="LOCAL-00033" summary="added day 21 part 2 (it finally works, this took like two hours)">
+      <option name="closed" value="true" />
+      <created>1734824194195</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1734824194195</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added silk" />
-    <MESSAGE value="added silk solution to day 6" />
-    <MESSAGE value="improved silk solution (reduced copies)" />
     <MESSAGE value="improved silk solution (only checked positions that were initially visited" />
     <MESSAGE value="added day 7" />
     <MESSAGE value="added multiprocessing silk solution" />
@@ -441,6 +466,9 @@
     <MESSAGE value="cleaned up day 18" />
     <MESSAGE value="added day 19" />
     <MESSAGE value="added day 20" />
-    <option name="LAST_COMMIT_MESSAGE" value="added day 20" />
+    <MESSAGE value="clean up day 20; added multiprocessing" />
+    <MESSAGE value="added day 21 part 1" />
+    <MESSAGE value="added day 21 part 2 (it finally works, this took like two hours)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added day 21 part 2 (it finally works, this took like two hours)" />
   </component>
 </project>
