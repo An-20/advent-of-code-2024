@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="added day 21 part 2 (it finally works, this took like two hours)">
+    <list default="true" id="3b778c80-328c-434e-a89d-583055021068" name="Changes" comment="cleaned up day 21">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day21/part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day21/part1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day21/part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day21/part2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -440,11 +438,18 @@
       <option name="project" value="LOCAL" />
       <updated>1734824194195</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="cleaned up day 21">
+      <option name="closed" value="true" />
+      <created>1734825014030</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1734825014030</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="improved silk solution (only checked positions that were initially visited" />
     <MESSAGE value="added day 7" />
     <MESSAGE value="added multiprocessing silk solution" />
     <MESSAGE value="added day 8" />
@@ -469,6 +474,7 @@
     <MESSAGE value="clean up day 20; added multiprocessing" />
     <MESSAGE value="added day 21 part 1" />
     <MESSAGE value="added day 21 part 2 (it finally works, this took like two hours)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added day 21 part 2 (it finally works, this took like two hours)" />
+    <MESSAGE value="cleaned up day 21" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned up day 21" />
   </component>
 </project>

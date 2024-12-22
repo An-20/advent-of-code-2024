@@ -1,7 +1,7 @@
 import functools
 
 with open("input.txt") as file:
-    data = [x.strip() for x in file.read().split("\n") if x.strip()]
+    INPUT_DATA = [x.strip() for x in file.read().split("\n") if x.strip()]
 
 
 NUMERIC_KEYPAD = [["7", "8", "9"], ["4", "5", "6"], ["1", "2", "3"], ["", "0", "A"]]
@@ -103,7 +103,7 @@ def transition_len(a: str, b: str, depth: int) -> int:
 
 
 s = 0
-for code in data:
+for code in INPUT_DATA:
     # look it's better than what was here before, ok
     s += min(
         sum(transition_len(a[i], a[i + 1], 25) for i in range(len(a) - 1))

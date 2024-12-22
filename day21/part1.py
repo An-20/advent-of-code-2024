@@ -1,5 +1,5 @@
 with open("input.txt") as file:
-    data = [x.strip() for x in file.read().split("\n") if x.strip()]
+    INPUT_DATA = [x.strip() for x in file.read().split("\n") if x.strip()]
 
 
 NUMERIC_KEYPAD = [["7", "8", "9"], ["4", "5", "6"], ["1", "2", "3"], ["", "0", "A"]]
@@ -63,7 +63,7 @@ def get_directional_moves(target: str) -> list[str]:
 
 
 s = 0
-for code in data:
+for code in INPUT_DATA:
     a = get_numeric_moves(code)
     b = []
     for av in sorted(a):
